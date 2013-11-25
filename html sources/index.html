@@ -1,0 +1,126 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<head>
+<meta charset="UTF-8">
+<title>سرویس پرداخت آنلاین زرین پال</title>
+<meta name="generator" content="Javad Rajabzadeh - javad1993@live.co.uk">
+<link href="icon/zp.ico" rel="shortcut icon">
+<style type="text/css">
+div#container
+{
+   width: 784px;
+   position: relative;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body
+{
+   font-size: 8px;
+   line-height: 1.1875;
+   text-align: center;
+   margin: 0;
+   background-color: #FFFFFF;
+   background-image: url(images/Body_bg.gif);
+   color: #000000;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#SlideShow1 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+}
+</style>
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-blast.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-blind.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-bounce.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-clip.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-drop.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-fade.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-fold.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-scale.min.js"></script>
+<script type="text/javascript" src="jquery.ui.effect-slide.min.js"></script>
+<script type="text/javascript" src="wb.slideshow.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   $("#SlideShow1").slideshow(
+   {
+      interval: 4000,
+      type: 'sequence',
+      effect: 'blast',
+      direction: '',
+      effectlength: 2000
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="SlideShow1" style="position:absolute;left:89px;top:4px;width:607px;height:166px;z-index:0;">
+<img class="image" style="width:607px;height:166px;" src="images/rd.png" alt="" title="">
+<img class="image" style="width:607px;height:166px;display:none;" src="images/rd.png" alt="" title="">
+<img class="image" style="width:607px;height:166px;display:none;" src="images/rd.png" alt="" title="">
+<a href="http://www.zarinpal.com" target="_blank"><img class="image" style="width:607px;height:166px;" src="images/rd.png" alt="" title=""></a>
+<a href="http://www.zarinpal.com" target="_blank"><img class="image" style="width:607px;height:166px;display:none;" src="images/rd.png" alt="" title=""></a>
+<a href="http://www.zarinpal.com" target="_blank"><img class="image" style="width:607px;height:166px;display:none;" src="images/rd.png" alt="" title=""></a>
+</div>
+</div>
+
+    <link href="css/Style.css" rel="stylesheet" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+
+<center><div class="FForm_bg">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="fform"><form action="https://www.zarinpal.com/webservice/Simplepay" method="post" onsubmit="msg('onSubmit')" id="TransactionAddForm" target="_blank">
+<br><right>مبلغ*: </right><input type="hidden" id="TransactionAccountID" value="شماره حساب زرین پال" name="data[Transaction][account_id]">
+<input type="text" id="TransactionAmount" value="به  تومان وارد كنيد."  onblur="if(this.value=='') this.value='به  تومان وارد كنيد.';" onfocus="if(this.value=='به  تومان وارد كنيد.') this.value='';" style="font-family: Tahoma;font-size:8pt"  name="data[Transaction][amount]" maxlength="9" size="31">
+<right>توضیحات: </right><input type="text" id="TransactionDesc" value="در صورت لزوم"  onblur="if(this.value=='') this.value='در صورت لزوم';" onfocus="if(this.value=='در صورت لزوم') this.value='';"   style="font-family: Tahoma;font-size:8pt"  name="data[Transaction][desc]" maxlength="50" size="31">
+<input type="hidden" id="TransactionRedirectUrl" value="آدرس صفحه بازگشت" name="data[Transaction][redirect_url]">
+<br>
+<br>
+<br>
+<center><left><input name="submit" type="submit" " style="font-family: Tahoma;font-size:9pt"  value="پـرداخـت "></left></center>
+</form>
+</center>
+</body>
+</html>
